@@ -1,0 +1,17 @@
+respuestas:
+16-ruby 1.9.3p194 (2012-04-20 revision 35410) [x86_64-linux]
+18. ¿Cual es el resultado de la siguiente operacion?
+	Hello world
+	=> nil
+
+21. ¿Cuales son las diferencias entre la ejecucion del programa "Hola Mundo" con el interprete de Ruby (ruby helloWorld.rb) y el interprete interactivo del ejercicio anterior? Escriba la respuesta en fichero creado en el ejercicio 9.
+	
+	
+helloworld.rb(main):001:0> #! /usr/bin/ruby
+helloworld.rb(main):002:0* 
+helloworld.rb(main):003:0* puts "Hola Mundo"helloworld.rb(main):003:0* 
+helloworld.rb(main):003:0> 
+Hola Mundo
+=> nil
+
+
