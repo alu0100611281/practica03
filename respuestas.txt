@@ -14,4 +14,32 @@ helloworld.rb(main):003:0>
 Hola Mundo
 => nil
 
+26. ¿Cual es el resultado de cada una de las siguientes operaciones?
+
+[1] pry(main)> puts x
+10
+=> nil
+[2] pry(main)> def hello
+[2] pry(main)*
+puts "Hello world"
+[2] pry(main)* end
+=> nil
+2[3] pry(main)> hello
+nil
+=> ???
+[4] pry(main)> byebye
+bye bye world!!!
+=> nil
+[5] pry(main)> x = "changed"
+=> "changed"
+[6] pry(main)> exit
+program resumes here. Value of x is: "changed"
+
+
+27. ¿Cuales son las diferencias entre la ejecucion del programa "Hola Mundo" con el interprete
+interactivo y con pry? Escriba la respuesta en fichero creado en el ejercicio 9.
+
+	La diferencia es que el interprete te lo ejecuta de golpe , y el pry te va ejecutando paso a paso y te permite hacer modificaciones.
+
+
 
